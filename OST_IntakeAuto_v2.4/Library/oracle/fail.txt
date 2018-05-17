@@ -1,0 +1,16 @@
+select pkg.pkg_name, mil.mil_name, sch_status, count(*) 
+from osi 
+join sch on sch.sch_key = osi.sch_key
+join mil on mil.mil_key = osi.mil_key
+join pkg on pkg.pkg_key = osi.pkg_key
+join orc on orc.orc_key = osi.orc_key
+join usr on usr.usr_key = orc.usr_key
+join oiu on oiu.orc_key = orc.orc_key
+join ost on ost.ost_key = oiu.ost_key
+where (SYSDATE - SCH_CREATE) < 1
+and sch_status = 'R'
+and osi_retry_for is null
+and usr.usr_status = 'Active'
+and ost.ost_status not in ('Disabled','Revoked')
+group by pkg.pkg_name, mil.mil_name, sch_status
+order by sch_status, pkg.pkg_name, mil.mil_name

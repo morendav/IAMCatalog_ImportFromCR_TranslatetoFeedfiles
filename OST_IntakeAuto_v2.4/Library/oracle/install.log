@@ -1,0 +1,35 @@
+****************** 
+ODPM install files 
+****************** 
+C:\temp\ODP.NET_Managed121020\uninstall_odpm.bat -> C:\oracle\uninstall_odpm.bat
+1 File(s) copied
+C:\temp\ODP.NET_Managed121020\network\admin\sample\tnsnames.ora -> C:\oracle\network\admin\sample\tnsnames.ora
+1 File(s) copied
+C:\temp\ODP.NET_Managed121020\network\admin\sample\sqlnet.ora -> C:\oracle\network\admin\sample\sqlnet.ora
+1 File(s) copied
+
+********************************** 
+Installing ODP.NET, Managed Driver 
+********************************** 
+C:\temp\ODP.NET_Managed121020\odp.net\doc\readme.htm -> C:\oracle\odp.net\doc\readme.htm
+C:\temp\ODP.NET_Managed121020\odp.net\managed\common\Oracle.ManagedDataAccess.dll -> C:\oracle\odp.net\managed\common\Oracle.ManagedDataAccess.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\common\EF6\Oracle.ManagedDataAccess.EntityFramework.dll -> C:\oracle\odp.net\managed\common\EF6\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\PublisherPolicy\4\Policy.4.121.Oracle.ManagedDataAccess.config -> C:\oracle\odp.net\managed\PublisherPolicy\4\Policy.4.121.Oracle.ManagedDataAccess.config
+C:\temp\ODP.NET_Managed121020\odp.net\managed\PublisherPolicy\4\Policy.4.121.Oracle.ManagedDataAccess.dll -> C:\oracle\odp.net\managed\PublisherPolicy\4\Policy.4.121.Oracle.ManagedDataAccess.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x64\configure.bat -> C:\oracle\odp.net\managed\x64\configure.bat
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x64\Oracle.ManagedDataAccessDTC.dll -> C:\oracle\odp.net\managed\x64\Oracle.ManagedDataAccessDTC.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x64\Oracle.ManagedDataAccessIOP.dll -> C:\oracle\odp.net\managed\x64\Oracle.ManagedDataAccessIOP.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x64\OraProvCfg.exe -> C:\oracle\odp.net\managed\x64\OraProvCfg.exe
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x64\unconfigure.bat -> C:\oracle\odp.net\managed\x64\unconfigure.bat
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x86\configure.bat -> C:\oracle\odp.net\managed\x86\configure.bat
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x86\Oracle.ManagedDataAccessDTC.dll -> C:\oracle\odp.net\managed\x86\Oracle.ManagedDataAccessDTC.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x86\Oracle.ManagedDataAccessIOP.dll -> C:\oracle\odp.net\managed\x86\Oracle.ManagedDataAccessIOP.dll
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x86\OraProvCfg.exe -> C:\oracle\odp.net\managed\x86\OraProvCfg.exe
+C:\temp\ODP.NET_Managed121020\odp.net\managed\x86\unconfigure.bat -> C:\oracle\odp.net\managed\x86\unconfigure.bat
+15 File(s) copied
+
+
+********************************* 
+ODP.NET, Managed Driver installed 
+********************************* 
+
