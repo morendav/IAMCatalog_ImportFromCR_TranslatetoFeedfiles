@@ -18,25 +18,8 @@ In order to deliver on each request, the fulfillment team would need to (1) enri
 
 ## Inputs
 
-
 Input files
 > Each run would need the fulfiller to go to the ticketing system and copy the ticket CR description into a text file. Put all said files in the ./input location
 
 Container & Referenced Library
 > the .NET module, its libraries, and the input folder are all located in the same folder. This can be zipped and shared amongst the team with all the required components self-contained to execute correctly
-
-## Releases
-
-> Version 1.1
-  - functional and tested with QA data
-  - outputs single LDIF in modify format with the same name "modified_" prepended to the name in the ./output/ folder location
-  - can only handle a single ldif input per run
-  - does not use the json config file --> assumes all user attributes in the input are to be modified if they contain the text "@target.com"
-  - search/replace text is hardcoded:    "@target.com"
-
-> Version 2.1
-  - capability expanded to read in from multiple LDIF, loops through each LDIF file in input directory
-
-> Version 2.2
-  - regex used vs string.startswith executions to handle case insensitivity of LDIF ldifFiles
-  - removed redundant processing
